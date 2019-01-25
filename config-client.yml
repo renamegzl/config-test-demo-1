@@ -9,3 +9,14 @@ from: this is from
 
 server:
   port: 2010
+  
+  
+---
+
+info:
+  profile: client
+  from: git
+  test: trace-new！！！
+  
+server:
+  port: 9402
