@@ -2,7 +2,7 @@ info:
   profile: default
   from: git
   test: trace-new！！！
-  
+
 test: '{cipher}62abf1e1835cbc3c0eb27bd494aafcfbaa8b77c69f8cc1c3e651e0ba629ad80b'
 
 from: this is from 
