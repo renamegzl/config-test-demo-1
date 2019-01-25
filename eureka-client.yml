@@ -1,6 +1,5 @@
-info:
-  profile: default
-  from: git
+info.profile=default
+info.from= git
 #指定微服务名称
 #spring.application.name=eureka-client
 #指定端口号
