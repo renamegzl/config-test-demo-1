@@ -1,24 +1,7 @@
-info:
-  profile: default
-  from: git
-  test: trace-new！！！
-  
-test: '{cipher}62abf1e1835cbc3c0eb27bd494aafcfbaa8b77c69f8cc1c3e651e0ba629ad80b'
-
-from: this is from 
-
-server:
-  port: 2010
-  
-  
----
-
-info:
-  profile: client
-  from: git
-  test: trace-new！！！
-  
-server:
-  port: 9402
-  
-test: 111
+#指定微服务名称
+spring.application.name=eureka-client
+#指定端口号
+server.port=9402
+#指定eureka注册中心的地址
+#eureka.client.serviceUrl.defaultZone=http://localhost:9401/eureka/
+eureka.client.serviceUrl.defaultZone=http://eureka1:9401/eureka/
